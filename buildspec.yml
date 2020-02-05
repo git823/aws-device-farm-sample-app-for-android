@@ -14,5 +14,5 @@ phases:
       - ls -R
 artifacts:
   files:
-     - './android/app/build/outputs/**/*.apk'
+     - './app/build/outputs/apk/app-debug.apk'
   discard-paths: yes
