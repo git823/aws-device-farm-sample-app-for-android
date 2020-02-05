@@ -9,6 +9,9 @@ phases:
     commands:
       - chmod +x ./gradlew
       - ./gradlew assembleDebug
+  post_build:
+    commands:
+      - ls -R
 artifacts:
   files:
      - './android/app/build/outputs/**/*.apk'
